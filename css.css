@@ -1,0 +1,36 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+    background-color: cyan;
+}
+header{
+    color: rgb(0, 0, 0);
+    background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+    font-size: 10rem;
+    
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.flex-item{
+    flex-basis: calc(50% - 1rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: auto;
+    height: 50rem;
+
+   
+    border: 0.1rem solid rgb(0, 0, 0);
+    
+}
